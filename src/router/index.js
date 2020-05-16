@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Blogs from '../views/Blogs.vue'
+import Project from '../views/Project.vue'
+import Journey from '../views/Journey.vue'
 import NewBlog from '../components/NewBlog.vue'
 import MyBlogs from '../components/MyBlogs.vue'
 
@@ -20,6 +22,16 @@ const routes = [
     component: About
   },
   {
+    path: '/journey',
+    name: 'Journey',
+    component: Journey
+  },
+  {
+    path: '/project',
+    name: 'Project',
+    component: Project
+  },
+  {
     path: '/blogs',
     name: 'Blogs',
     component: Blogs,
@@ -31,7 +43,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: 'history'
 })
 
 export default router

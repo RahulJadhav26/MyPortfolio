@@ -35,12 +35,18 @@ export default {
 .text{
     color:#404040;
 }
-h4:hover{
-    color:blueviolet !important;
-    text-decoration-line: underline;
+h4{
+  color:rgb(255, 217, 0);
 }
+h4:hover{
+    color:rgb(255, 217, 0) !important;
+    text-decoration-line: underline;
+    text-shadow: 0 0 3px black;
+}
+
 a:hover{
   text-decoration: none !important;
+
 }
 
 </style>

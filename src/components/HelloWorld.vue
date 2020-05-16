@@ -1,23 +1,16 @@
 <template>
   <div>
     <CRow>
-      <CCol  sm="3">
-       <img class="img-thumbnail rounded ml-3" src="../assets/My_pic.jpg" alt="Image 1">
-      </CCol>
-      <CCol lg="8" style="margin-top:80px">
-
-        <CJumbotron>
-          <h1 class="display-4 ">Connecting Dots...</h1>
-          <p class="lead">"The Dots you Connect during <span class="Highlight"> PROCESS</span> of Venturing is the path towards a Perceptable Picture" </p>
-        </CJumbotron>
-      </CCol>
+      <CCol sm='12' md="12">
+       <img style='width:90%;height:80%;' rounded  src="../assets/Tagline.jpeg" alt="Image 1">
+    </CCol>
     </CRow>
     <CRow>
       <CCol>
         <h3 class="underline">Project Library</h3>
       </CCol>
     </CRow>
-      <CRow>
+    <CRow>
 
         <app-Card class="slide-enter-active" v-for="card in projects.slice((currentpage-1)*3,currentpage*3)"  :key="card.id" :card="card"></app-Card>
 
@@ -51,6 +44,13 @@ export default {
 </script>
 
 <style scoped>
+.PresentInfo{
+  margin-top:20px;
+  width: 70%;
+  height: 100%;
+  background-color: rgb(255, 217, 0);
+  text-align: center;
+}
 img{
   margin:50px;
   display:flex;
