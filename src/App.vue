@@ -7,11 +7,11 @@
        <transition name='slide' mode="out-in">
        <router-view/>
        </transition>
-       <p class="float-right mr-2">
+       <!-- <p class="float-right mr-2">
         Trademark Rahul Jadhav
         <br>
          Developed Using Vuejs
-       </p>
+       </p> -->
     </div>
 </template>
 

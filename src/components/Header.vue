@@ -7,7 +7,7 @@
       <CNavbarNav>
         <CNavItem to="/" >Home</CNavItem>
          <CNavItem to="/project" >B.E Project</CNavItem>
-         <CNavItem to="/journey" >My Journey</CNavItem>
+         <!-- <CNavItem to="/journey" >My Journey</CNavItem> -->
           <CNavItem to="/about" >About</CNavItem>
          <CNavItem to="/blogs" >Blog</CNavItem>
       </CNavbarNav>
