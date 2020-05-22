@@ -35,16 +35,16 @@
       <div class="container mt-5">
         <h1 class="header">Videos of Features</h1>
       <b-row class="mt-5" >
-            <b-col md='6'>
-             <b-card style="border:none;" no-body >
-                    <iframe class="videos img-thumbnail"  width="550" height="350" src="https://www.youtube.com/embed/VkV51Ga9fWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <b-col sm ='12' md='6'>
+             <b-card class="videos d-inline" style="border:none;" no-body >
+                    <iframe class="videos d-inline"  width="550" height="250" src="https://www.youtube.com/embed/VkV51Ga9fWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               </b-card>
             </b-col>
-            <b-col md='6'>
-             <b-card style="border:none;" no-body >
+            <b-col sm ='12' md='6'>
+             <b-card class="videos d-inline" style="border:none;" no-body >
 
-                   <iframe class="videos img-thumbnail" width="550" height="450" src="https://www.youtube.com/embed/7xC3Egey6fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <iframe class=" videos d-inline" width="550" height="250" src="https://www.youtube.com/embed/7xC3Egey6fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </b-card>
             </b-col>
       </b-row>
@@ -57,22 +57,22 @@
           <h1>Resources</h1>
       </div>
                 <b-row class=" mx-5 p-5 text-center justify-content-center" >
-                  <b-col md='6' class="videos mr-1 p-3" style="border-bottom:2px solid #404040; border-radius:1.2rem;">
+                  <b-col sm='12' md='4' class="videos m-3 mr-1 p-3" style="border-bottom:2px solid #404040; border-radius:1.2rem;">
                         <h3>Black Book</h3>
                       <iframe class="img-thumbnail" src="https://drive.google.com/file/d/1o8j9-x4GSN-JNzgZU3IR8ql8HOwfEACN/preview" width="300" height="300"></iframe>
                   </b-col>
-                   <b-col md='6' class="videos m-3 p-3" style="border-bottom:2px solid #404040; border-radius:1.2rem;">
+                   <b-col sm='12' md='4' class="videos m-3 p-3" style="border-bottom:2px solid #404040; border-radius:1.2rem;">
                         <h3>Publication</h3>
                         <iframe class="img-thumbnail" src="https://drive.google.com/file/d/1p7ln2PHUlM8mAr0L9Vsv2J5XHYSkhFdZ/preview" width="300" height="300"></iframe>
                    </b-col>
                 </b-row>
                 <div>
-                  <b-row class="mx-5 p-5 text-center justify-content-center">
-                    <b-col class="videos mx-5 p-5" style="border-bottom:2px solid #404040; border-radius:1.2rem;">
+                  <b-row  md='6' sm="12" class="mx-5 p-5 text-center justify-content-center">
+                    <b-col  md='6' class="d-line videos mx-5 p-5" style="border-bottom:2px solid #404040; border-radius:1.2rem;">
                       <h3>Vistul Website</h3>
                       <a href="http://vistul.in.s3-website-us-east-1.amazonaws.com">www.vistul.in</a>
                     </b-col>
-                    <b-col class="videos mx-5 p-5" style="border-bottom:2px solid #404040; border-radius:1.2rem;">
+                    <b-col  md='6' class="videos mx-5 p-5" style="border-bottom:2px solid #404040; border-radius:1.2rem;">
                       <h3 >Contributors</h3>
                         <p>1) Arpit Vaishya <a class="m-2" href="https://www.linkedin.com/in/arpitvaishya"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a> <br><br>
                            2) Harris Nawarangee <a class="m-2" href="https://www.linkedin.com/in/harris-a-r-nawarangy-7877a816a"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
@@ -114,6 +114,6 @@ export default {
   border:3px solid rgb(255, 217, 0);
 }
 .Resources{
-  margin: 100px;
+  margin: 10px;
 }
 </style>
