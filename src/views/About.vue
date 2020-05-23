@@ -23,7 +23,7 @@
        </div>
     </b-col>
     <b-col sm='12' md ='9'>
-        <div  class='container infoBox'>
+        <div  class='infoBox'>
             <h1>“Your time is limited, so don’t waste it living someone else’s life.”</h1>
             <p>― Steve Jobs</p>
         </div>
@@ -97,12 +97,11 @@ img{
 }
 .infoBox{
     text-align: center;
-    margin: 50px auto;
     margin-top:150px;
 }
 .story{
-   width: 70%;
-   margin:150px
+   margin:50px;
+   display: inline-block;
 }
 
 </style>

@@ -10,19 +10,19 @@
   <div class="header m-5">
           <h3>THE BIG CONCEPT</h3>
   </div>
-          <b-row class="mx-5 p-5" >
-            <b-col md ='6' >
+          <b-row class="p-5" >
+            <b-col md="6">
              <h3>Motivation</h3>
              <p>Large amount of e-commerce data was being generated each day by many e-commerce companies in terms of their dynamic pricing strategy, changing discount offers, data about availability of product. All these heterogenous data can be used to produce intelligence in form of dynamic pricing intelligence, assortment intelligence, product’s title optimization by frequently searched items by people as well as related queries for the searched term. All these types of intelligence motivated us to build a SaaS platform for upcoming startups in the e-commerce field and help them in making efficient business decisions, thus staying ahead in the market and making hefty profit in business.</p>
             </b-col>
-            <b-col md='6'>
-               <iframe class="img-thumbnail" style="border:3px solid rgb(255, 217, 0);  border-radius:1.2em;" width="500" height="300" src="https://www.youtube.com/embed/X8iu97QEHhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <b-col class="embed-responsive embed-responsive-16by9" md="6">
+               <iframe  style="border:3px solid rgb(255, 217, 0);  border-radius:1.2em;" width="500" height="300" src="https://www.youtube.com/embed/X8iu97QEHhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </b-col>
           </b-row>
-    <div class="content"  >
-      <b-row >
+          <hr class="m-5">
+      <b-row class="p-5" >
         <b-col sm ='12' md ='5'>
-          <img style=" margin:10px auto ;width:100%;border-radius: 1.2rem; border:2px solid rgb(255, 217, 0);" src="../assets/proposedSys.png" alt="not found">
+          <img style=" margin:0px auto ;width:100%;border-radius: 1.2rem; border:2px solid rgb(255, 217, 0);" src="../assets/proposedSys.png" alt="not found">
         </b-col>
         <b-col sm ='12' md ='7'>
           <div class= 'abstract mt-3'>
@@ -31,27 +31,25 @@
           </div>
         </b-col>
       </b-row>
-          <img class="img-thumbnail" style="margin: 1px auto;" src="../assets/pipeline.png" alt="Production Pipeline">
+      <hr class="m-5">
+          <img class="img-thumbnail p-5" style="margin: 1px auto; border:none;" src="../assets/pipeline.png" alt="Production Pipeline">
+      <hr class="m-5">
       <div class="container mt-5">
         <h1 class="header">Videos of Features</h1>
-      <b-row class="mt-5" >
+      <b-row class="m-4" >
             <b-col sm ='12' md='6'>
-             <b-card class="videos d-inline" style="border:none;" no-body >
-                    <iframe class="videos d-inline"  width="550" height="250" src="https://www.youtube.com/embed/VkV51Ga9fWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <b-card class="videos embed-responsive embed-responsive-16by9" style="border:none;" no-body >
+                    <iframe class="videos d-inline"  width="400" height="250" src="https://www.youtube.com/embed/VkV51Ga9fWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               </b-card>
             </b-col>
             <b-col sm ='12' md='6'>
-             <b-card class="videos d-inline" style="border:none;" no-body >
-
-                   <iframe class=" videos d-inline" width="550" height="250" src="https://www.youtube.com/embed/7xC3Egey6fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <b-card class="videos embed-responsive embed-responsive-16by9" style="border:none;" no-body >
+                   <iframe class=" videos d-inline" width="400" height="250" src="https://www.youtube.com/embed/7xC3Egey6fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </b-card>
             </b-col>
       </b-row>
-      </div>
-    <div class="border">
-
-</div>
+      <hr class="m-5">
      <div class="Resources">
         <div class="header">
           <h1>Resources</h1>
@@ -100,7 +98,6 @@ export default {
 
 }
 .content{
-  padding:5px 5px 50px 50px;
   border-radius: 1.2rem;
 }
 .abstract{
