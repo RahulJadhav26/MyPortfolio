@@ -13,7 +13,7 @@
       <div class="container">
         <b-nav  v-b-scrollspy:nav-scroller class=" shadow-lg" style="border-bottom:2px solid #404040;border-top:2px solid #404040; background-color:rgb(225, 173, 1); border-radius:1.2rem;">
             <b-nav-item href="#projectLibrary" active>Project Library</b-nav-item>
-            <b-nav-item href="#Acheivements">Acheivements</b-nav-item>
+            <b-nav-item href="#Achievements">Achievements</b-nav-item>
             <b-nav-item href="#skills">Skills</b-nav-item>
             <b-nav-item href="#Qualifications">Qualifications</b-nav-item>
         </b-nav>
@@ -23,7 +23,7 @@
     <div id="nav-scroller" style=" border-radius:1.2rem; border-top:1px solid #404040; margin:30px; position:relative; height:500px; overflow-y:scroll;">
     <CRow>
       <CCol id="projectLibrary">
-        <h3  class="underline">Project Library</h3>
+        <h3  class="underline">PROJECT LIBRARY</h3>
       </CCol>
     </CRow>
     <CRow>
@@ -33,26 +33,32 @@
       </CRow>
 <b-pagination   v-model="currentpage" :items="this.$store.state.projects" pills :per-page="perPage" :total-rows="rows" class="ml-5"></b-pagination>
     <CRow>
-      <CCol id="Acheivements">
-        <h3  class="underline">Acheivements</h3>
-        <b-row>
-          <b-col md="12" >
+      <CCol id="Achievements">
+        <h3  class="underline">ACHIEVEMENTS</h3>
+        <b-row >
+          <b-col md="6" sm="12" >
             <h5 class="underline">Technical and Implementation Excellent Paper Award</h5>
               <ul>
                 <li class="mt-2">Awarded for Best Technical paper at  <a href="http://theconferenceworld.org/conference_album.php?al_id=289">WRFASE Conference</a> </li>
               </ul>
           </b-col>
-          <b-col md="12" >
+          <b-col md="6" sm="12" >
             <h5 class="underline">Paper Publication at <a href="http://ijmas.iraj.in">IJMAS</a> </h5>
               <ul>
                 <li class="mt-2">Title: Dynamic E-commerce Pricing Intelligence Using KNN </li>
               </ul>
           </b-col>
-          <b-col md="12" >
+          <b-col md="6" sm="12" >
             <h5 class="underline">Err_404 2.0 Hackathon Competition</h5>
               <ul>
                 <li class="mt-2">Selected in Top 11 out of 49 teams for Final Round</li>
                 <li class="mt-2"><a href="https://drive.google.com/file/d/1Kx_uCjFKiqcrcA7Y23nt9WRIAy-CcbB6/preview">Partcipation Certificate</a></li>
+              </ul>
+          </b-col>
+          <b-col md="6" sm="12" >
+            <h5 class="underline">Music Cordinator of College</h5>
+              <ul>
+                <li class="mt-2">Managed all the Stage Performances(Inter and Intra) for Academic Year (2018-19)</li>
               </ul>
           </b-col>
         </b-row>
@@ -60,7 +66,7 @@
     </CRow>
     <CRow>
       <CCol id="skills" >
-        <h3  class="underline">Skills</h3>
+        <h3  class="underline">SKILLS</h3>
         <b-row>
           <div class="container">
             <b-col>
@@ -87,7 +93,7 @@
     </CRow>
     <CRow>
       <CCol id="Qualifications" md="12" >
-        <h3  class="underline">Qualifications</h3>
+        <h3  class="underline">QUALIFICATIONS</h3>
         <div class="container">
         <b-row>
           <b-col md="6" >
@@ -164,9 +170,8 @@ img{
   color:#007bff;
 }
 .underline{
-  border-bottom:1px solid gray;
-  width: 25%;
-  margin:20px 40px;
+  text-decoration: underline;
+  margin:20px 30px 0px 20px;
 }
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 

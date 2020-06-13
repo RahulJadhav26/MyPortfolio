@@ -19,7 +19,7 @@
                <iframe  style="border:3px solid rgb(225, 173, 1);  border-radius:1.2em;" width="500" height="300" src="https://www.youtube.com/embed/X8iu97QEHhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </b-col>
           </b-row>
-          <hr class="m-5">
+          <hr class="m-5 line">
       <b-row class="p-5" >
         <b-col sm ='12' md ='5'>
           <img style=" margin:0px auto ;width:100%;border-radius: 1.2rem; border:2px solid rgb(225, 173, 1);" src="../assets/proposedSys.png" alt="not found">
@@ -31,9 +31,9 @@
           </div>
         </b-col>
       </b-row>
-      <hr class="m-5">
+      <hr class="m-5 line ">
           <img class="img-thumbnail p-5" style="margin: 1px auto; border:none;" src="../assets/pipeline.png" alt="Production Pipeline">
-      <hr class="m-5">
+      <hr class="m-5 line">
       <div class="container mt-5">
         <h1 class="header">Videos of Features</h1>
       <b-row class="m-4" >
@@ -49,7 +49,7 @@
               </b-card>
             </b-col>
       </b-row>
-      <hr class="m-5">
+      <hr class="m-5 line">
      <div class="Resources">
         <div class="header">
           <h1>Resources</h1>
@@ -96,6 +96,10 @@ export default {
   text-align: center;
   text-decoration: underline  #404040;
 
+}
+.line{
+  background-color:cornsilk;
+  height:5px;
 }
 .content{
   border-radius: 1.2rem;

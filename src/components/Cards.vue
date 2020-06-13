@@ -30,7 +30,7 @@ export default {
 </script>
 <style scoped>
 .cards{
-    height:250px;
+  height: 300px;
 }
 .text{
     color:#404040;

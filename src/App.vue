@@ -12,6 +12,7 @@
         <br>
          Developed Using Vuejs
        </p> -->
+       <p class="text-right mr-4">Developed By Rahul Jadhav</p>
     </div>
 </template>
 
@@ -37,8 +38,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
-  color: #2c3e50;
+  color: #404040;
   /* margin-top: 60px; */
+}
+html{
+  background-color:cornsilk;
 }
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 
